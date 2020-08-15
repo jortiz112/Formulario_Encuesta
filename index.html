@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario de Ecuesta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Homenaje, ofrenda, ofrecimiento, admiración, cortesía, consideración, respeto" />
+        <meta name="description" content="Homenaje a Boris Vallejo, pintor, dibujante del género de arte fantástico y erótico, portada de docenas de obras de ciencia ficción " />
+        <link rel="stylesheet" href="CSS/estilos.css"> 
+    </head>
+
+    <body>
+        <div id= "container">
+            <header class="header">
+                <h1 id= "title" class="text-center">
+                    ENCUESTA PARA ENTRENAMIENTO CON PESAS
+                </h1>
+                <p id="description" class=" description text-center"> <!-- dos clases -->
+                    Permitirá conocer el nivel del servicio brindado en el entrenamiento
+                    con pesas.
+                </p>
+            </header>
+
+            <form id="survey-form">
+                <div class="form-group">
+                    <label for="name" id="name-label">Nombre Cliente: </label>
+                    <input type="text" id="name" class="form-control" name="name" placeholder="Ingrese su nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email-label">Direcci&oacute;n de correo electr&oacute;nico: </label>
+                    <input type="email" id="email" class="form-control" name="email" placeholder="Ingrese su correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="number" id="number-label">Edad: </label>
+                    <input type="number" id="number" class="form-control" name="edad" min="10" max="99" placeholder="Ingrese su edad" required>
+                </div>
+                <div class="form-group">
+                    <p>¿Cuantas veces al mes va al gym.?</p>
+                    <select name="cantidadVeces" id="dropdown" class="form-control" required>
+                        <option disabled selected value>Seleccione una opci&oacute;n</option>
+                        <option value="1"> Una semana</option>
+                        <option value="2">Dos semanas</option>
+                        <option value="3">Tres semanas</option>
+                        <option value="4">Todo el mes</option>
+                        <option value="5">Niuguna de las anteriores</option>
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>¿Cree usted que hace falta más maquinaria y/o pesas en los gym.?</p>
+                    <label>
+                        <input type="radio" name="maquinaria" value="y" class="input-radio" checked>Si
+                    </label>
+                    <label>
+                        <input type="radio" name="maquinaria" value="n" class="input-radio">No
+                    </label>
+                    <label>
+                        <input type="radio" name="maquinaria" value="s" class="input-radio">Desconozco
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p>¿Qué partes de mi cuerpo deseo fortalecer.? <span class="clue">(Marque todo lo que corresponda)</span></p>
+                    <label>
+                        <input type="checkbox" name="preferencia" value="espalda" class="input-checkbox">Espalda
+                    </label>
+                    <label>
+                        <input type="checkbox" name="preferencia" value="piernas" class="input-checkbox">Piernas
+                    </label>
+                    <label>
+                        <input type="checkbox" name="preferencia" value="pecho" class="input-checkbox">Pecho
+                    </label>
+                    <label>
+                        <input type="checkbox" name="preferencia" value="brazos" class="input-checkbox">Brazos
+                    </label>
+                    <label>
+                        <input type="checkbox" name="preferencia" value="estomago" class="input-checkbox">Estomago
+                    </label>
+                    <label>
+                        <input type="checkbox" name="preferencia" value="pantorilla" class="input-checkbox">Pantorilla
+                    </label>
+                    <label>
+                        <input type="checkbox" name="preferencia" value="hombros" class="input-checkbox">Hombros
+                    </label>
+                    <label>
+                        <input type="checkbox" name="preferencia" value="trapecio" class="input-checkbox">Trapecio
+                    </label>
+
+                </div>
+                <div class="form-group">
+                    <p>¿Algún comentario o sugerencia?</p>
+                    <textarea name="comentario" id="comentarios" class="input-textarea" placeholder="Ingrese aquí su comentario..."></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="submit" class="submit-button">Enviar</button>
+                </div>
+            </form>
+
+        </div>
+        
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
