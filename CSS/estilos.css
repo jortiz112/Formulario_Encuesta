@@ -22,7 +22,7 @@ body {
     line-height: 1.4;
     color: var(--color-white); /* variable de color inicializada en el :root*/
     margin: 0;
-    display: block; /* Muestra un elemento como un elemento de bloque (como <p>). Comienza en una nueva línea y ocupa todo el ancho */
+
 }
 
 /* Para la imagen como brackground */
@@ -46,12 +46,15 @@ body::before {
 }
 
 .header {
+    width: 100%;
     padding: 0 0.625rem;
     margin-bottom: 1.875rem;
-}
+    /* ***************GRID CSS************* */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    /* ************************************ */
 
-header {
-    display: block; /* Muestra un elemento como un elemento de bloque (como <p>). Comienza en una nueva línea y ocupa todo el ancho */
 }
 
 h1 {
@@ -80,7 +83,7 @@ form {
     background: var(--color-darkblue-alpha); /* variable de color inicializada en el :root*/
     padding: 2.5rem 0.625rem;
     border-radius: 0.5rem;
-    min-width: 262px; /* para que se mantenga el formulario cuando se disminuye la página responsive demasiado. */
+    min-width: 262px; /*para que se mantenga el formulario cuando se disminuye la página responsive demasiado. */
 }
 
 /* Diseño de las etiquetas  */
@@ -164,6 +167,57 @@ button {
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.piePagina{
+    clear: both; /* Indica que el elemento es movido hacia abajo para limpiar tanto elementos flotantes de la izquierda como de la derecha. */
+    width: 100%;
+    height: 60px;
+    background-color: #1293d4;
+    margin: 15px auto 5px auto;
+    min-width: 262px;
+    /* ***************GRID CSS************* */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    /* ************************************ */
+}
+
+footer p {
+    color: #fff;
+    text-align: center; /* centrado horizontalmente con GRID CSS */
+    align-self: center;
+    font-size: 1vw; /* texto responsive a la pantalla con unidades vh y vw*/
+    
+}
+
+/* Media querys para dispositivos diferentes al PC */
+@media (max-width: 720px) {   
+    footer p {
+        font-size: 2.5vw; /* texto responsive a la pantalla con unidades vh y vw*/
+    }
+
+}
+
+@media (max-width: 669px) {  
+    footer p {
+        font-size: 2.5vw; /* texto responsive a la pantalla con unidades vh y vw*/
+    }
+
+}
+
+@media (max-width: 536px) {  
+    footer p {
+        font-size: 2.5vw; /* texto responsive a la pantalla con unidades vh y vw*/
+    }
+
+}
+
+@media (max-width: 448px) {   
+    footer p {
+        font-size: 2.5vw; /* texto responsive a la pantalla con unidades vh y vw*/
+    }
+
 }
 
 /* Estos media querys ajustan todo el contenedor principal y permite que se vea como centrado el formulario y todo el texto  */
