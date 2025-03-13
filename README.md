@@ -2,9 +2,9 @@
 # <h1 align="center"> 💥Encuesta para entrenamiento con pesas💥 </h1>
 ***
 
-![img](formularioEncuesta.png)
+![img](/assets/formularioEncuesta.png)
 
-![img](testFormulario.png)
+![img](/assets/testFormulario.png)
 
 ## 📄Descripción y funcionalidad del proyecto
 
@@ -60,10 +60,10 @@ Para probar la funcionalidad del "Portafolio", simplemente visita el siguiente e
 
 ## 👩👨Autores del Proyecto
 
->> ![img](Foto-Pequeña-julio.png)    Programación HTML y CSS
+>> ![img](/assets/Foto-Pequeña-julio.png)    Programación HTML y CSS
 >                               
->>> ![img](Miriadax.jpg)  Miriadax Curso Diseño Web con HTML5 + CSS (8.ª Edición)
+>>> ![img](/assets/Miriadax.jpg)  Miriadax Curso Diseño Web con HTML5 + CSS (8.ª Edición)
 
 ## 📜Certificados
 
->> ![img](Certificado.png)
+>> ![img](/assets/Certificado.png)
