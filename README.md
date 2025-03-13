@@ -4,6 +4,8 @@
 
 ![img](formularioEncuesta.png)
 
+![img](testFormulario.png)
+
 ## 📄Descripción y funcionalidad del proyecto
 
 ```sh
@@ -42,6 +44,12 @@ fix all issue reports that use the suggested technology stack for this project. 
 
 ```
 
+## 🌀Tecnologías Utilizadas
+
+✔️HTML
+
+✔️CSS
+
 ## 💻Instalación
 
 ```sh
@@ -52,10 +60,10 @@ Para probar la funcionalidad del "Portafolio", simplemente visita el siguiente e
 
 ## 👩👨Autores del Proyecto
 
->> ![img]()    Programación HTML y CSS
+>> ![img](Foto-Pequeña-julio.png)    Programación HTML y CSS
 >                               
->>> ![img]()  Curso de HTML5, CSS3, flexbox, responsividad, entre otros.
+>>> ![img](Miriadax.jpg)  Miriadax Curso Diseño Web con HTML5 + CSS (8.ª Edición)
 
 ## 📜Certificados
 
->> ![img]()
+>> ![img](Certificado.png)
